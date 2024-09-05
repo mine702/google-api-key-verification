@@ -7,8 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "mine",
+  "keywords": ["google", "api", "key", "verification"],
+  "author": "mine702",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.3.2"
