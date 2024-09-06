@@ -1,6 +1,6 @@
 {
   "name": "google-api-key-verification",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple library to check which Google APIs a given API key has access to.",
   "main": "index.js",
   "type": "module",
@@ -12,5 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^3.3.2"
-  }
+  },
+  "types": "index.d.ts"
 }

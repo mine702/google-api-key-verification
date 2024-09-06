@@ -17,7 +17,7 @@ async function fetchWithTimeout(resource, options = {}, timeout ) {
 // Google API Discovery 엔드포인트
 const DISCOVERY_URL = "https://discovery.googleapis.com/discovery/v1/apis";
 
-export async function checkApiKeyForSpecificApi(apiKey, title) {
+export async function checkApiKeyForTitle(apiKey, title) {
     const allowedApis = {
         success: [], // 접근 가능한 API
         fail: []     // 접근할 수 없는 API
@@ -61,7 +61,7 @@ export async function checkApiKeyForSpecificApi(apiKey, title) {
 }
 
 // API 키를 검증하는 함수 (병렬 처리)
-export async function checkApiKeyPermissions(apiKey) {
+export async function checkApiKey(apiKey) {
     const allowedApis = {
         success: [], // 접근 가능한 API
         fail: []     // 접근할 수 없는 API
